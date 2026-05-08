@@ -1,5 +1,4 @@
 // Represents a discount that can be applied to an order
-// SAVE10 is dicount code
 
 public class Discount {
     private String name;
