@@ -1,6 +1,3 @@
-// CSE 1325 Final Project - Burger Shop
-// Simple burger model class
-
 public class Burger {
     private String name;
     private double basePrice;

@@ -340,7 +340,6 @@ public class BurgerShopFE extends JFrame implements ActionListener {
         String code = txtDiscountCode.getText().trim();
 
         if (code.equalsIgnoreCase("SAVE10")) {
-            // simple fixed 10% discount code
             currentOrder.setDiscount(new Discount("SAVE10", 10.0));
             JOptionPane.showMessageDialog(this,
                     "10% discount applied!",
